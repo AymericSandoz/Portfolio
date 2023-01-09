@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/AymericSandoz/Portfolio.git/static/css/main.8791d475.css",
+    "main.js": "/AymericSandoz/Portfolio.git/static/js/main.d19b9809.js",
+    "static/media/ohmyfood.png": "/AymericSandoz/Portfolio.git/static/media/ohmyfood.2ef90ecd0adf10d6df6f.png",
+    "static/media/spikebet.png": "/AymericSandoz/Portfolio.git/static/media/spikebet.0d008caa71bd8bea3631.png",
+    "static/media/laPanthere.png": "/AymericSandoz/Portfolio.git/static/media/laPanthere.3b191123c7d1338899a3.png",
+    "static/media/spikedex.png": "/AymericSandoz/Portfolio.git/static/media/spikedex.5dddeab3a91c37a1196b.png",
+    "static/media/P2.png": "/AymericSandoz/Portfolio.git/static/media/P2.8f3219345759636c0ea6.png",
+    "static/media/P7_img1.jpg": "/AymericSandoz/Portfolio.git/static/media/P7_img1.816274d91ce21205b588.jpg",
+    "static/media/P6_img.png": "/AymericSandoz/Portfolio.git/static/media/P6_img.e4f349cd24075df0d93c.png",
+    "static/media/R-logo.png": "/AymericSandoz/Portfolio.git/static/media/R-logo.8b35cec31789d6c88ed4.png",
+    "static/media/html-logo.png": "/AymericSandoz/Portfolio.git/static/media/html-logo.f3aa7827cd5160f3fc1c.png",
+    "static/media/js-logo.png": "/AymericSandoz/Portfolio.git/static/media/js-logo.76536eb2b86398277df3.png",
+    "static/media/nodeJs-logo.png": "/AymericSandoz/Portfolio.git/static/media/nodeJs-logo.7b0f4700ed6ce39afdff.png",
+    "static/media/P5_img.PNG": "/AymericSandoz/Portfolio.git/static/media/P5_img.b7427aa7b1cdd9ec3092.PNG",
+    "static/media/photo-profil.jpg": "/AymericSandoz/Portfolio.git/static/media/photo-profil.f1cc54d0aa89d7fe1392.jpg",
+    "static/media/react-logo.png": "/AymericSandoz/Portfolio.git/static/media/react-logo.44319306359c7112276d.png",
+    "static/media/mongo-logo.png": "/AymericSandoz/Portfolio.git/static/media/mongo-logo.c964002ecef4971216d0.png",
+    "static/media/sass-logo.png": "/AymericSandoz/Portfolio.git/static/media/sass-logo.051888ab516950ed48cb.png",
+    "static/media/express-logo.png": "/AymericSandoz/Portfolio.git/static/media/express-logo.39a0f4c3d981885c64f8.png",
+    "static/media/github-logo.png": "/AymericSandoz/Portfolio.git/static/media/github-logo.c8007a9fb185cb152ee6.png",
+    "index.html": "/AymericSandoz/Portfolio.git/index.html",
+    "main.8791d475.css.map": "/AymericSandoz/Portfolio.git/static/css/main.8791d475.css.map",
+    "main.d19b9809.js.map": "/AymericSandoz/Portfolio.git/static/js/main.d19b9809.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8791d475.css",
+    "static/js/main.d19b9809.js"
+  ]
+}
