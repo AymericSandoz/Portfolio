@@ -1,0 +1,209 @@
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+
+.left-side-presentation,
+.right-side-presentation {
+    background-color: $color-1;
+    border-radius: 20px;
+    display: flex;
+    opacity: 0.9;
+    flex-direction: column;
+    height: 60%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+.left-side-presentation {
+    width: 19%;
+
+
+    img {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+    text-align: center;
+
+    .name {
+        .first-name {
+            font-weight: 400;
+        }
+
+        .last-name {
+            font-weight: bold;
+        }
+
+    }
+
+
+    .profession {
+        background-color: $color-4;
+        width: 220px;
+        margin: auto;
+        font-size: 0.8em;
+        border-radius: 15px;
+    }
+
+
+    .nationality,
+    .location,
+    .age {
+        display: flex;
+        margin: auto;
+
+    }
+
+    .icon {
+        margin-right: 5px;
+    }
+
+
+    .media-link {
+        .icon {
+            margin-top: 20px;
+            font-size: 40px;
+        }
+    }
+}
+
+.right-side-presentation {
+    position: relative;
+
+    .navbar-container {
+        position: absolute;
+        right: 5%;
+        top: 5%;
+    }
+
+    width: 60%;
+
+    .about-me {
+        height: 40%;
+
+        .bar-container {
+            display: flex;
+        }
+
+        .bar {
+            width: 50px;
+            height: 5px;
+            border-radius: 10px;
+            opacity: 0.4;
+            margin-right: 5px;
+            background-color: $color-5;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .active-bar {
+            opacity: 1;
+        }
+
+        p {
+            margin-top: 10px;
+            padding-right: 100px;
+        }
+
+    }
+
+    .skills-contenair {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+
+
+        .skills {
+            background-color: $color-3;
+            width: 30%;
+            height: 110px;
+            margin: 10px;
+            border-radius: 10px;
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 20% 80%;
+
+            h3 {
+                text-align: center;
+                grid-column: 1 / 3;
+                grid-row: 1;
+                font-size: 20px;
+
+
+
+            }
+
+            .slack-container {
+                grid-column: 1;
+                grid-row: 2;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                align-items: center;
+                margin-top: 5px;
+                padding: 5px;
+
+            }
+
+            .skill-description {
+                grid-column: 2;
+                grid-row: 2;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: flex-start;
+                font-size: 14px;
+                padding: 5px;
+
+
+            }
+
+            img {
+
+                height: 50px;
+            }
+
+
+        }
+
+        .n1 {
+            img {
+                height: 70px;
+            }
+        }
+
+        .n2 {
+            img {
+                height: 50px;
+            }
+        }
+
+        .n4 {
+            img {
+                height: 40px;
+            }
+
+            .sass-logo {
+                height: 30px;
+            }
+        }
+
+
+
+
+    }
+
+}

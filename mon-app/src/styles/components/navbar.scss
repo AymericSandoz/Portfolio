@@ -1,0 +1,26 @@
+.navbar-container {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+
+
+    .display-navbar {
+        cursor: pointer;
+        color: $color-5;
+        font-size: 30px;
+
+    }
+
+    .navbar-item {
+        padding: 5px;
+        font-weight: bold;
+
+        &:hover {
+            color: $color-5;
+        }
+    }
+
+    .actif {
+        color: $color-5;
+    }
+}

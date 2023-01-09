@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+a {
+    color: black;
+    cursor: pointer;
+}
+
+$color-1: white;
+$color-2: red;
+$color-3:#E8E8E8;
+$color-4:#F5F5F5;
+$color-5:blue;
+$background-color: blue;
+
+
+#root,
+body,
+html {
+    height: 100%;
+}
+
+body {
+    // background-image: url("../images/pexels-pixabay-38537.jpg");
+    background: linear-gradient(330deg, #F5F5F5, blue);
+    background-attachment: fixed;
+    background-size: cover;
+}
