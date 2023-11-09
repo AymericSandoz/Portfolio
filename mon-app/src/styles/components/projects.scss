@@ -1,12 +1,16 @@
 .projects {
 
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
 
     .bar-container {
         display: flex;
     }
 
     .bar {
-        width: 100px;
+        min-width: 100px;
         height: 5px;
         border-radius: 10px;
         opacity: 0.4;
@@ -35,6 +39,7 @@
     p {
         font-size: 0.8em;
         text-align: center;
+        margin: 0 20px;
         margin-top: 5px;
     }
 

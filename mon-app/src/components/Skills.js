@@ -27,6 +27,9 @@ import githubLogo from "../images/github-logo.png";
 import RLogo from "../images/R-logo.png";
 import expressLogo from "../images/express-logo.png";
 import jsLogo from "../images/js-logo.png";
+import jQueryLogo from "../images/jQueryLogo.png";
+import pythonLogo from "../images/python.png";
+import JDangoPythonLogo from "../images/django-python-logo.png";
 
 function Skills() {
   return (
@@ -36,6 +39,7 @@ function Skills() {
         <div className="skills n2">
           <h3>Back-End</h3>
           <div className="slack-container ">
+            <img src={JDangoPythonLogo} alt="logo django python" />
             <img src={nodeJsLogo} alt="node js css" />
             <img src={expressLogo} alt="logo express" />
           </div>
@@ -72,6 +76,7 @@ function Skills() {
         <div className="skills n1">
           <h3>Front-end Framework</h3>
           <div className="slack-container">
+            <img src={jQueryLogo} alt="jQuery js" />
             <img src={reactLogo} alt="logo react" />{" "}
           </div>
           <p className="skill-description">
@@ -93,6 +98,7 @@ function Skills() {
           <h3>Other</h3>
           <div className="slack-container">
             <img src={RLogo} alt="logo R" />
+            <img src={pythonLogo} alt="logo python" />
           </div>
           <p className="skill-description">
             {" "}

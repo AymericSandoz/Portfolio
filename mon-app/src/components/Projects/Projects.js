@@ -17,6 +17,7 @@ import {
   faR,
 } from "@fortawesome/free-solid-svg-icons";
 import SchoolProject from "./SchoolProject";
+import SchoolProject2 from "./SchoolProject2";
 import PersonnalProject from "./PersonnalProject";
 import { useLocation } from "react-router-dom";
 
@@ -42,11 +43,21 @@ function Project() {
           onClick={() => setProjectType("school")}
         >
           {" "}
-          <p>School</p>
+          <p>Formation React/Node/js</p>
+        </div>
+        <div
+          className={
+            projectType == "school2" ? "bar bar-2 active-bar" : "bar bar-2"
+          }
+          onClick={() => setProjectType("school2")}
+        >
+          {" "}
+          <p>Alternance python/django</p>
         </div>
       </div>
       {projectType == "personnal" && <PersonnalProject />}
       {projectType == "school" && <SchoolProject />}
+      {projectType == "school2" && <SchoolProject2 />}
     </div>
   );
 }

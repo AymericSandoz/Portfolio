@@ -104,9 +104,11 @@ function Home() {
               )}
               {hiddenPart == "2" && (
                 <p className="part-2">
-                  {" "}
-                  Recently graduated from OpenClassrooms - Web Developer degree.{" "}
+                  In apprenticeship at Label Emmaus. First marketplace for reuse
+                  and solidarity. Training in Python/Django."
                   <br /> <br />
+                  Graduated from OpenClassrooms - Web Developer degree. <br />{" "}
+                  <br />
                   Scientific background in ecology - Master 2.{" "}
                 </p>
               )}

@@ -4,6 +4,19 @@
     align-items: center;
     height: 100%;
 
+    @media screen and (max-width: 999px) {
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width: 999px) {
+
+    .skill-description,
+    .project-slack {
+        display: none !important;
+    }
 
 }
 
@@ -13,17 +26,30 @@
     background-color: $color-1;
     border-radius: 20px;
     display: flex;
+    align-items: space-around;
     opacity: 0.9;
     flex-direction: column;
-    height: 60%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 15px;
     margin: 10px;
+
+    @media screen and (min-width: 1000px) {
+        height: 70%;
+    }
+
+
+
 }
 
 
 .left-side-presentation {
     width: 19%;
+
+
+    @media screen and (max-width: 999px) {
+        width: 90%;
+
+    }
 
 
     img {
@@ -84,9 +110,17 @@
         position: absolute;
         right: 5%;
         top: 5%;
+
+        @media screen and (max-width: 999px) {
+            right: 5px;
+            top: 5px;
+        }
     }
 
-    width: 60%;
+    @media screen and (max-width: 999px) {
+        width: 90%;
+
+    }
 
     .about-me {
         height: 40%;
@@ -113,7 +147,12 @@
         p {
             margin-top: 10px;
             padding-right: 100px;
+
+            @media screen and (max-width: 999px) {
+                padding-right: 0px;
+            }
         }
+
 
     }
 
@@ -135,6 +174,14 @@
 
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 20% 80%;
+
+
+            @media screen and (max-width: 999px) {
+                width: 90%;
+                grid-template-columns: 1fr;
+            }
+
+
 
             h3 {
                 text-align: center;
