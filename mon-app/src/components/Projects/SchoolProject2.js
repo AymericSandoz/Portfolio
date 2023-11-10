@@ -19,7 +19,7 @@ function SchoolProject2() {
         <div className="description">
           <a
             href="https://github.com/AymericSandoz/OpenClassrooms-P6"
-            className="github-link"
+            className="github-link" target="_blank"rel="noopener noreferrer"
           >
             {" "}
             CODE <FontAwesomeIcon icon={faGithub} className="icon" />
@@ -38,7 +38,7 @@ function SchoolProject2() {
         <div className="description">
           <a
             href="https://github.com/AymericSandoz/OpenClassrooms-P4"
-            className="github-link"
+            className="github-link" target="_blank"rel="noopener noreferrer"
           >
             {" "}
             CODE <FontAwesomeIcon icon={faGithub} className="icon" />
@@ -55,7 +55,7 @@ function SchoolProject2() {
         <div className="description">
           <a
             href="https://github.com/AymericSandoz/asteroid_list"
-            className="github-link"
+            className="github-link" target="_blank"rel="noopener noreferrer"
           >
             {" "}
             CODE <FontAwesomeIcon icon={faGithub} className="icon" />

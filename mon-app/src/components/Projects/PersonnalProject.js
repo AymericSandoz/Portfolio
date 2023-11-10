@@ -13,14 +13,14 @@ function PersonnalProject() {
   return (
     <div className="personnal-projects">
       <div className="personnal-project-1">
-        <a href="https://spikebet.herokuapp.com/">
+        <a href="https://spikebet.herokuapp.com/" target="_blank"rel="noopener noreferrer">
           {" "}
           <img src={spikebetImg} alt="spikebet" />{" "}
         </a>
         <div className="description">
           <a
             href="https://github.com/AymericSandoz/spikebet"
-            className="github-link"
+            className="github-link" target="_blank"rel="noopener noreferrer"
           >
             {" "}
             CODE <FontAwesomeIcon icon={faGithub} className="icon" />
@@ -36,14 +36,14 @@ function PersonnalProject() {
       </div>
 
       <div className="personnal-project-2">
-        <a href="https://spikedex-heroku.herokuapp.com/">
+        <a href="https://spikedex-heroku.herokuapp.com/" target="_blank"rel="noopener noreferrer">
           {" "}
           <img src={spikedexImg} alt="spikedex" />{" "}
         </a>
 
         <div className="description">
           <a
-            href="https://github.com/AymericSandoz/spikedexV3/tree/master"
+            href="https://github.com/AymericSandoz/spikedexV3/tree/master" target="_blank"rel="noopener noreferrer"
             className="github-link"
           >
             {" "}

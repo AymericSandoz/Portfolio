@@ -61,10 +61,10 @@ function Home() {
           <p> Versailles, Yvelines </p>{" "}
         </div>
         <div className="media-link">
-          <a href="https://github.com/AymericSandoz">
+          <a href="https://github.com/AymericSandoz" target="_blank"rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} className="icon" />
           </a>
-          <a href="https://www.linkedin.com/in/aymeric-sandoz-5311781a2/">
+          <a href="https://www.linkedin.com/in/aymeric-sandoz-5311781a2/" target="_blank"rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="icon" />
           </a>
         </div>

@@ -26,7 +26,7 @@ function SchoolProject() {
         <div className="description">
           <a
             href="https://github.com/AymericSandoz/Open_Classroom_P7"
-            className="github-link"
+            className="github-link" target="_blank"rel="noopener noreferrer"
           >
             {" "}
             CODE <FontAwesomeIcon icon={faGithub} className="icon" />
@@ -49,7 +49,7 @@ function SchoolProject() {
         <div className="description">
           <a
             href="https://github.com/AymericSandoz/Open_Classroom_P6"
-            className="github-link"
+            className="github-link" target="_blank"rel="noopener noreferrer"
           >
             {" "}
             CODE <FontAwesomeIcon icon={faGithub} className="icon" />
@@ -60,7 +60,7 @@ function SchoolProject() {
       </div>
 
       <div className="school-project-3">
-        <a href="https://aymericsandoz.github.io/Open_classroom_Projects/index.html">
+        <a href="https://aymericsandoz.github.io/Open_classroom_Projects/index.html" target="_blank"rel="noopener noreferrer">
           {" "}
           <img src={ohmyfoodImg} alt="Ohmyfood restaurant" />{" "}
         </a>
@@ -68,7 +68,7 @@ function SchoolProject() {
         <div className="description">
           <a
             href="https://aymericsandoz.github.io/Open_classroom_Projects/index.html"
-            className="github-link"
+            className="github-link" target="_blank"rel="noopener noreferrer"
           >
             {" "}
             CODE <FontAwesomeIcon icon={faGithub} className="icon" />
@@ -82,7 +82,7 @@ function SchoolProject() {
       </div>
 
       <div className="school-project-4">
-        <a href="https://aymericsandoz.github.io/Projet_4_Open_Classrooms/index">
+        <a href="https://aymericsandoz.github.io/Projet_4_Open_Classrooms/index" target="_blank"rel="noopener noreferrer">
           {" "}
           <img src={laPanthereImg} alt="La panthere" />{" "}
         </a>
@@ -90,7 +90,7 @@ function SchoolProject() {
         <div className="description">
           <a
             href="https://github.com/AymericSandoz/Projet_4_Open_Classrooms"
-            className="github-link"
+            className="github-link" target="_blank"rel="noopener noreferrer"
           >
             {" "}
             CODE <FontAwesomeIcon icon={faGithub} className="icon" />
@@ -109,7 +109,7 @@ function SchoolProject() {
         <div className="description">
           <a
             href="https://github.com/AymericSandoz/P5_Open_Classroom_Aymeric_Sandoz"
-            className="github-link"
+            className="github-link" target="_blank"rel="noopener noreferrer"
           >
             {" "}
             CODE <FontAwesomeIcon icon={faGithub} className="icon" />
@@ -122,7 +122,7 @@ function SchoolProject() {
         </div>
       </div>
       <div className="school-project-6">
-        <a href="https://aymericsandoz.github.io/projet_2_OpenSclassrooms/">
+        <a href="https://aymericsandoz.github.io/projet_2_OpenSclassrooms/" target="_blank"rel="noopener noreferrer">
           {" "}
           <img src={P2Img} alt="booki" />{" "}
         </a>
@@ -130,7 +130,7 @@ function SchoolProject() {
         <div className="description">
           <a
             href="https://github.com/AymericSandoz/projet_2_OpenSclassrooms"
-            className="github-link"
+            className="github-link" target="_blank"rel="noopener noreferrer"
           >
             {" "}
             CODE <FontAwesomeIcon icon={faGithub} className="icon" />
