@@ -61,10 +61,18 @@ function Home() {
           <p> Versailles, Yvelines </p>{" "}
         </div>
         <div className="media-link">
-          <a href="https://github.com/AymericSandoz" target="_blank"rel="noopener noreferrer">
+          <a
+            href="https://github.com/AymericSandoz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} className="icon" />
           </a>
-          <a href="https://www.linkedin.com/in/aymeric-sandoz-5311781a2/" target="_blank"rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/aymeric-sandoz-5311781a2/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faLinkedin} className="icon" />
           </a>
         </div>
@@ -105,9 +113,9 @@ function Home() {
               {hiddenPart == "2" && (
                 <p className="part-2">
                   In apprenticeship at Label Emmaus. First marketplace for reuse
-                  and solidarity. Training in Python/Django." <br />
-                  Graduated from OpenClassrooms - Web Developer degree. <br />{" "}
-                  Scientific background in ecology - Master 2.{" "}
+                  and solidarity. Training in Python/Django." <br /> Graduated
+                  from OpenClassrooms - Web Developer degree. Scientific
+                  background in ecology - Master 2.{" "}
                 </p>
               )}
 
