@@ -105,10 +105,8 @@ function Home() {
               {hiddenPart == "2" && (
                 <p className="part-2">
                   In apprenticeship at Label Emmaus. First marketplace for reuse
-                  and solidarity. Training in Python/Django."
-                  <br /> <br />
+                  and solidarity. Training in Python/Django." <br />
                   Graduated from OpenClassrooms - Web Developer degree. <br />{" "}
-                  <br />
                   Scientific background in ecology - Master 2.{" "}
                 </p>
               )}
@@ -117,7 +115,7 @@ function Home() {
                 <p className="part-3">
                   {" "}
                   I am really interested in topics related to ecology, wildlife
-                  and agriculture. <br /> <br />I play competitive spikeball.{" "}
+                  and agriculture. <br />I play competitive spikeball.{" "}
                 </p>
               )}
             </div>

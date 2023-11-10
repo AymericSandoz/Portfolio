@@ -49,13 +49,26 @@
         justify-content: space-around;
         flex-wrap: wrap;
 
+        @media screen and (max-width: 999px) {
+            flex-direction: column;
+            height: auto;
+        }
+
         .personnal-project-1,
         .personnal-project-2 {
             width: 40%;
             margin-top: 50px;
 
-
+            @media screen and (max-width: 999px) {
+                flex-direction: column;
+                width: 100%;
+            }
         }
+
+
+
+
+
 
 
 
@@ -87,6 +100,10 @@
         .school-project-6 {
             width: 30%;
             margin-top: 20px;
+
+            @media screen and (max-width: 999px) {
+                width: 100%;
+            }
 
             img {
                 width: 100%;
