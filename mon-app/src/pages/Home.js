@@ -18,7 +18,7 @@ import {
   faR,
 } from "@fortawesome/free-solid-svg-icons";
 import Navbars from "../components/Navbar";
-import profilImage from "../images/photo-profil.JPG";
+import profilImage from "../images/photo-profil.jpg";
 import Skills from "../components/Skills.js";
 import Project from "../components/Projects/Projects";
 import { useLocation } from "react-router-dom";
